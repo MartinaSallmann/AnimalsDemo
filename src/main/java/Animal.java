@@ -44,16 +44,16 @@ public class Animal {
         this.animalLoud = animalLoud;
     }
 
-    private String giveAnimalLoud(){
+    public String giveAnimalLoud(){
         return animalLoud;
     }
-    private String getNameAndAge(){
+    public String getNameAndAge(){
         System.out.println(" " + getName() + " " + getAge());
 
          return getName() + getAge();
     }
 
-    private String ageCategory(int age){
+    public String ageCategory(int age){
 
         if (age < 2){
             return "baby animal";
